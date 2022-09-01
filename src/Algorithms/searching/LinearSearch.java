@@ -24,7 +24,7 @@ public class LinearSearch {
         int arr[]={10, 20, 80, 30, 60, 50,110, 100, 130, 170};
         int result=search(arr, expectedElement1);
         if(result!= ElEMENT_NOT_FOUND){
-            System.out.println("Element is present at index: "+result);
+            System.out.println("Element is present on: "+result);
         }else{
             System.out.println("Element is not present in the array");
         }
