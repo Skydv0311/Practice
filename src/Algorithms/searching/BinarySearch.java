@@ -25,7 +25,7 @@ public class BinarySearch {
      * Recursive Approach
      */
     public static int binarySearch_recursive(int arr[], int targetElement,int low,int high){
-        if(high>1){
+        if(low<=high && targetElement>=arr[low] && targetElement<=arr[high]){
             int mid=(low+high)/2;
             if(targetElement==arr[mid])
                 return mid;
