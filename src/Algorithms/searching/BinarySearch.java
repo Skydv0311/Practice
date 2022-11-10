@@ -38,7 +38,7 @@ public class BinarySearch {
     }
 
     public static void main(String[] args) {
-        int arr[]={10, 20,30, 60,110, 130, 140, 170};
+        int arr[]={10, 20,30, 60,110, 130, 140,170};
         int result_iterative=binarySearch_iterative(arr, TARGET_ELEMENT,0,arr.length-1);
         if(result_iterative==-1)
             System.out.println("Element is not found in given array by Iterative approach");
